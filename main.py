@@ -59,8 +59,6 @@ from langchain.schema import SystemMessage
 # FastAPI is a modern, fast (high-performance) web framework for building APIs with Python 3.7+ based on standard Python type hints.
 from fastapi import FastAPI
 
-import streamlit as st  # Ensure you have this import statement
-
 
 # Load environment variables from a .env file into the system's environment.
 load_dotenv()
